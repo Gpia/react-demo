@@ -68,7 +68,6 @@ export default {
           options: {
             cacheDirectory: true,
             plugins: ['react-hot-loader/babel', 'dva-hmr'],
-            // plugins: ['dva-hmr'], // 这里关闭 react-hot-loader/babel 是 aisc 的 🌲 组件在 react-hot-loader/babel 无法获取到数据
           },
         },
       },
